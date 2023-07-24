@@ -16,18 +16,10 @@ namespace VSCode.FileSystem
 
         static int Main(string[] args)
         {
-            // We want Unicode for the output
+           
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-            // Validate args length
-            //if (args.Length == 0 || args.Length > 2)
-            //{
-            //    Console.Error.WriteLine("CodeHelper needs exactly one argument of the directory to watch recursively.");
-            //    return 1;
-            //}
-
-            // Validate provided path
-            //var path = args[0];
+     
             var path = @"D:\\Work\\solr\\watcher";
             if (!Directory.Exists(path))
             {
