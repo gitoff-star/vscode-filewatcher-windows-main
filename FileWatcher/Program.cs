@@ -20,7 +20,7 @@ namespace VSCode.FileSystem
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
      
-            var path = @"D:\\Work\\solr\\watcher";
+            var path = @"MyDirectoryPath";
             if (!Directory.Exists(path))
             {
                 Console.Error.WriteLine("Path '{0}' does not exist.", path);
